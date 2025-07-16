@@ -1,14 +1,21 @@
 [
   {
-    "institute": "BITS Pilani",
-    "degree": "M.Tech in Software Systems",
-    "year": "2022 - 2024",
-    "location": "Goa Campus"
+    "institution": "Indian Institute of Technology, Bombay",
+    "degree": "M.Tech in Computer Science",
+    "duration": "2022 – 2024",
+    "location": "Mumbai, India",
+    "logo": "university.png",
+    "details": [
+      "Specialized in Machine Learning and Distributed Systems",
+      "Published paper on scalable microservice design"
+    ]
   },
   {
-    "institute": "College of Engineering Roorkee",
+    "institution": "Jadavpur University",
     "degree": "B.Tech in Computer Science",
-    "year": "2018 - 2022",
-    "location": "Delhi"
+    "duration": "2018 – 2022",
+    "location": "Kolkata, India",
+    "logo": "university.png",
+    "details": ["Graduated with distinction", "President of Coding Club"]
   }
 ]

@@ -1,24 +1,55 @@
-import React from 'react';
-import educationData from '../data/education.json';
+import React from "react";
+import educationData from "../data/education.json";
 
 const Education = () => {
   return (
-    <div className="container">
-      <h2 className="mb-4">Education</h2>
-      <div className="row">
-        {educationData.map((edu, idx) => (
-          <div className="col-md-6 mb-4" key={idx}>
-            <div className="card shadow-sm h-100">
-              <div className="card-body">
-                <h5 className="card-title">{edu.institute}</h5>
-                <h6 className="card-subtitle mb-2 text-muted">{edu.degree}</h6>
-                <p className="card-text">{edu.year}</p>
-                <p className="card-text"><small className="text-muted">{edu.location}</small></p>
+    <div className="work-timeline">
+      {educationData.map((edu, idx) => (
+        <div className="timeline-entry" key={idx}>
+          {/* Vertical line + logo */}
+          <div className="timeline-line-container">
+            <div className="timeline-logo">
+              <img
+                src={require(`../assets/institute_logos/${edu.logo}`)}
+                alt={`${edu.institution} logo`}
+                className="company-logo"
+              />
+            </div>
+          </div>
+
+          {/* edu content */}
+          <div className="timeline-content">
+            <div className="timeline-row">
+              {/* Left block */}
+              <div className="timeline-left">
+                <h5 className="company-name">{edu.institution}</h5>
+                <small className="timeline-duration">
+                  {edu.duration} @ {edu.location}
+                </small>
+              </div>
+
+              {/* Right block */}
+              <div className="timeline-right">
+                <h6 className="role-title">{edu.degree}</h6>
+                <ul className="responsibilities">
+                  {edu.details.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+                {edu.skills && edu.skills.length > 0 && (
+                  <div className="skills-list mt-2">
+                    {edu.skills.map((skill, i) => (
+                      <span className="skill-tag" key={i}>
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
             </div>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 };

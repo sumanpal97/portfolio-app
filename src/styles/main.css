@@ -241,10 +241,12 @@ body, html, #root {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 2rem;
+  flex-wrap: wrap; /* ✅ Add this */
 }
 
 .timeline-left {
   min-width: 240px;
+  max-width: 240px; /* ✅ Optional: force wrapping sooner */
 }
 
 .timeline-right {
@@ -260,6 +262,10 @@ body, html, #root {
 .company-name {
   font-weight: 600;
   font-size: 1.1rem;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  max-width: 100%; /* ✅ Ensures it doesn’t overflow */
 }
 
 .role-title {
