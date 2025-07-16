@@ -181,3 +181,155 @@ body, html, #root {
   filter: grayscale(0%) brightness(1.5);
 }
 
+
+/* wORK */
+
+.timeline-line-container {
+  position: relative;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.work-timeline {
+  padding-top: 40px;
+  position: relative;
+  margin-left: 120px;
+  padding-left: 150px;
+}
+
+.timeline-entry {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 4rem;
+}
+
+/* Logo centered on timeline */
+.timeline-logo {
+  z-index: 2;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 0; /* keep transparent edges visible */
+}
+
+/* Right side content */
+.timeline-content {
+  margin-left: 1rem;
+  flex: 1;
+  color: #ccc;
+}
+
+/* Company and Role - side by side */
+.timeline-header {
+  justify-content: space-between;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.timeline-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.timeline-left {
+  min-width: 240px;
+}
+
+.timeline-right {
+  flex: 1;
+}
+
+.timeline-duration {
+  color: #ccc;
+  font-size: 0.9rem;
+  letter-spacing: 0.2px;
+}
+
+.company-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.role-title {
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: #aaa;
+  flex-shrink: 0;
+}
+
+.timeline-subtext {
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.responsibilities {
+  padding-left: 1rem;
+  margin-bottom: 0;
+}
+
+.timeline-role-section {
+  padding-left: 2rem; /* You can increase this if you want more spacing */
+}
+
+.timeline-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-list {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  background-color: #222;
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+  color: #bbb;
+  transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+  color: #fff;
+  border-color: #888;
+}
+
+.company-logo {
+  transition: transform 0.3s ease;
+}
+.timeline-entry:hover .company-logo {
+  transform: scale(1.05);
+}
+
+.nav-link.active {
+  color: #fff !important;         /* Make text white */
+  font-weight: 600;               /* Make it bold */
+  font-size: 1.05rem;             /* Slightly bigger */
+}

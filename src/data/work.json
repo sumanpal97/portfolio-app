@@ -1,14 +1,61 @@
 [
   {
-    "company": "OpenAI",
-    "role": "Software Engineer",
-    "duration": "Jan 2024 - Present",
-    "description": "Working on AI-powered developer tools and API services."
+    "company": "Meta",
+    "logo": "meta.png",
+    "duration": "Jan 2022 - Present",
+    "location": "London",
+    "role": "Senior Software Engineer",
+    "responsibilities": [
+      "Currently a Software Engineer at Bootcamp",
+      "Worked with smaller teams on identifying tasks",
+      "Choosing the best team for me"
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "AWS",
+      "Kubernetes",
+      "PostgreSQL",
+      "Spring Boot",
+      "AWS",
+      "Kubernetes",
+      "PostgreSQL",
+      "Spring Boot",
+      "AWS",
+      "Kubernetes",
+      "PostgreSQL",
+      "Spring Boot",
+      "AWS",
+      "Kubernetes",
+      "PostgreSQL"
+    ]
   },
   {
-    "company": "TechCorp Solutions",
-    "role": "Backend Developer Intern",
-    "duration": "Jun 2022 - Dec 2023",
-    "description": "Built REST APIs with Node.js, MongoDB, and Docker."
+    "company": "Oracle",
+    "logo": "oracle.png",
+    "duration": "Jan 2022 - Present",
+    "location": "London",
+    "role": "Software Engineer",
+    "responsibilities": [
+      "Currently a Software Engineer at Bootcamp",
+      "Worked with smaller teams on identifying tasks",
+      "Choosing the best team for me",
+      "Worked with smaller teams on identifying tasks",
+      "Worked with smaller teams on identifying tasks"
+    ],
+    "skills": ["Java", "Spring Boot", "AWS", "Kubernetes", "PostgreSQL"]
+  },
+  {
+    "company": "Google",
+    "logo": "google.png",
+    "duration": "Jan 2022 - Present",
+    "location": "London",
+    "role": "Junior Software Engineer",
+    "responsibilities": [
+      "Currently a Software Engineer at Bootcamp",
+      "Worked with smaller teams on identifying tasks",
+      "Choosing the best team for me"
+    ],
+    "skills": ["Python", "Docker", "GitLab CI", "MongoDB"]
   }
 ]

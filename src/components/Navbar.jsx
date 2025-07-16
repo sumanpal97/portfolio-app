@@ -1,13 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div className="container">
-        <Link className="navbar-brand" to="/">
+        <NavLink className="navbar-brand" to="/">
           Home
-        </Link>
+        </NavLink>
         <button
           className="navbar-toggler"
           data-bs-toggle="collapse"
@@ -18,34 +18,34 @@ export default function Navbar() {
         <div id="nav" className="collapse navbar-collapse">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/work">
+              <NavLink className="nav-link" to="/work">
                 Work Experience
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/projects">
+              <NavLink className="nav-link" to="/projects">
                 Projects
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/education">
+              <NavLink className="nav-link" to="/education">
                 Education
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/current">
+              <NavLink className="nav-link" to="/current">
                 Now & Next
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/blog">
+              <NavLink className="nav-link" to="/blog">
                 Blog
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">
+              <NavLink className="nav-link" to="/contact">
                 Contact
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>

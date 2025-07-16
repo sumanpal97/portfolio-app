@@ -1,19 +1,56 @@
-import React from 'react';
-import workData from '../data/work.json';
+import React from "react";
+import workData from "../data/work.json";
+import "../styles/main.css";
 
 const Work = () => {
   return (
-    <div className="container">
-      <h2 className="mb-4">Work Experience</h2>
-      <div className="list-group">
-        {workData.map((job, idx) => (
-          <div className="list-group-item" key={idx}>
-            <h5 className="mb-1">{job.role} @ {job.company}</h5>
-            <p className="mb-1">{job.description}</p>
-            <small className="text-muted">{job.duration}</small>
+    <div className="work-timeline">
+      {workData.map((job, idx) => (
+        <div className="timeline-entry" key={idx}>
+          {/* Vertical line + logo */}
+          <div className="timeline-line-container">
+            <div className="timeline-logo">
+              <img
+                src={require(`../assets/company_logos/${job.logo}`)}
+                alt={`${job.company} logo`}
+                className="company-logo"
+              />
+            </div>
           </div>
-        ))}
-      </div>
+
+          {/* Job content */}
+          <div className="timeline-content">
+            <div className="timeline-row">
+              {/* Left block */}
+              <div className="timeline-left">
+                <h5 className="company-name">{job.company}</h5>
+                <small className="timeline-duration">
+                  {job.duration} @ {job.location}
+                </small>
+              </div>
+
+              {/* Right block */}
+              <div className="timeline-right">
+                <h6 className="role-title">{job.role}</h6>
+                <ul className="responsibilities">
+                  {job.responsibilities.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+                {job.skills && job.skills.length > 0 && (
+                  <div className="skills-list mt-2">
+                    {job.skills.map((skill, i) => (
+                      <span className="skill-tag" key={i}>
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
     </div>
   );
 };
