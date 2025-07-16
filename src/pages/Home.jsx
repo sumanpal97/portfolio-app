@@ -130,7 +130,11 @@ const Home = () => {
             rel="noopener noreferrer"
             className="d-flex align-items-center gap-2 social-link"
           >
-            <img src={item.icon} alt={item.name} className="social-icon" />
+            <img
+              src={require(`../assets/social_media_icons/${item.icon}`)}
+              alt={item.name}
+              className="social-icon"
+            />
             <span>{item.name}</span>
           </a>
         ))}
