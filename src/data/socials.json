@@ -1,0 +1,12 @@
+[
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/sumanpal97",
+    "icon": "/assets/icons/linkedin.png"
+  },
+  {
+    "name": "LeetCode",
+    "url": "https://leetcode.com/u/sumanpal198/",
+    "icon": "/assets/icons/leetcode.png"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "company": "OpenAI",
+    "role": "Software Engineer",
+    "duration": "Jan 2024 - Present",
+    "description": "Working on AI-powered developer tools and API services."
+  },
+  {
+    "company": "TechCorp Solutions",
+    "role": "Backend Developer Intern",
+    "duration": "Jun 2022 - Dec 2023",
+    "description": "Built REST APIs with Node.js, MongoDB, and Docker."
+  }
+]

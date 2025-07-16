@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Portfolio Website",
+    "tech": "React, Bootstrap, JSON",
+    "link": "https://github.com/yourname/portfolio",
+    "description": "Personal portfolio using static JSON for dynamic sections."
+  },
+  {
+    "name": "CVE AutoFixer",
+    "tech": "Flask, Bootstrap, Python",
+    "link": "https://github.com/yourname/cve-autofix",
+    "description": "Tool to autofix known CVEs in Maven dependencies."
+  }
+]

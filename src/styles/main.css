@@ -1,0 +1,183 @@
+/* ===== Global Reset & Typography ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Utility Classes ===== */
+.section {
+  padding: 4rem 1rem;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #343a40;
+}
+
+/* ===== Profile Picture on Home Page ===== */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #dee2e6;
+  margin-bottom: 1rem;
+}
+
+/* ===== Cards for Education & Projects ===== */
+.card {
+  border-radius: 0.75rem;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+/* ===== Footer Styling ===== */
+footer {
+  background-color: #212529;
+  color: white;
+  padding: 2rem 1rem;
+  margin-top: auto;
+}
+
+/* ===== Contact Form Feedback ===== */
+form p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+/* === Hero Section with Soft Black Background === */
+/* .hero-section {
+  background: linear-gradient(135deg, #121212, #1a1a1a);
+  min-height: 100vh;
+  padding: 3rem 1rem;
+} */
+.hero-section {
+  min-height: 70vh;  /* Full viewport height */
+  padding-top: 10px;  /* Fine-tune for spacing if needed */
+}
+
+
+/* === Glowing Gradient Text === */
+.glow-text {
+  background: linear-gradient(90deg, #00d2ff, #3a47d5, #ff4ecd);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+
+  animation: glowMove 5s ease-in-out infinite alternate;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.15),
+               0 0 20px rgba(0, 210, 255, 0.2),
+               0 0 30px rgba(58, 71, 213, 0.3);
+
+  font-family: 'Merriweather', serif;
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+
+@keyframes glowMove {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 100% center;
+  }
+}
+
+/* === Global App Background and Text Color === */
+body, html, #root {
+  background: linear-gradient(135deg, #121212, #1a1a1a);
+  color: #f1f1f1;
+  min-height: 100vh;
+}
+
+/*  */
+
+.subtitle-rotate {
+  font-size: 1.25rem;
+  color: #cccccc;
+  margin-top: 0.5rem;
+  min-height: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.blinking-cursor {
+  display: inline-block;
+  margin-left: 4px;
+  color: #00ffff;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.highlight-text {
+  background: linear-gradient(90deg, #00f2ff, #ff00d4);
+  background-clip: text;     
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glowPulse 2s ease-in-out infinite;
+  font-weight: 600;
+}
+
+@keyframes glowPulse {
+  0% {
+    text-shadow: 0 0 5px rgba(0,255,255,0.2);
+  }
+  50% {
+    text-shadow: 0 0 10px rgba(255,0,255,0.4);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(0,255,255,0.2);
+  }
+}
+
+
+.small-description {
+  max-width: 800px;
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+
+/* social medias */
+.social-links {
+  margin-top: 1.5rem;
+}
+
+.social-link {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-link:hover {
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  filter: grayscale(100%) brightness(1.2);
+  transition: transform 0.2s;
+}
+
+.social-link:hover .social-icon {
+  transform: scale(1.1);
+  filter: grayscale(0%) brightness(1.5);
+}
+
