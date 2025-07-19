@@ -10,7 +10,7 @@
     "name": "CVEAutoFixer",
     "tech": "Python, Graph, Flask, Maven",
     "link": "",
-    "description": "**CVEAutoFixer** is an internal tool that automates the detection and resolution of security vulnerabilities across a mesh of repositories. It identifies CVEs, applies safe upgrades, and automatically creates commits and pull requests—streamlining secure code delivery.",
+    "description": "A tool that automates the detection and resolution of security vulnerabilities across a mesh of repositories. It identifies CVEs, applies safe upgrades, and automatically creates commits and pull requests—streamlining secure code delivery.",
     "associatedWith": "Amdocs"
   },
   {
