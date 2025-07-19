@@ -3,21 +3,25 @@
   "version": "1.0.0",
   "private": true,
   "description": "Static React Portfolio using Bootstrap 5 and local JSON files",
+  "homepage": "https://sumanpal97.github.io/portfolio-app/",
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5.3.7",
     "framer-motion": "^12.23.6",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.9.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^18.3.1",
     "react-icons": "^5.5.0",
-    "react-router-dom": "^6.22.3",
-    "react-scripts": "5.0.1",
+    "react-router-dom": "^6.30.1",
+    "react-scripts": "^5.0.1",
     "react-tsparticles": "^2.12.2",
     "tsparticles": "^3.8.1"
   },
@@ -39,5 +43,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumanpal97/portfolio-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumanpal97/portfolio-app/issues"
   }
 }
