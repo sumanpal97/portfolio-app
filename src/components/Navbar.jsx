@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div className="container">
-        <NavLink className="navbar-brand" to="/portfolio-app/">
+        <NavLink className="navbar-brand" to="/">
           Home
         </NavLink>
         <button
