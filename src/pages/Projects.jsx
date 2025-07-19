@@ -22,9 +22,6 @@ const Projects = () => {
                 <p className="project-description flex-grow-1">
                   {project.description}
                 </p>
-                <p className="associated-with-tag">
-                  <strong>Associated With:</strong> {project.associatedWith}
-                </p>
                 {project.link ? (
                   <a
                     href={project.link}
@@ -34,8 +31,12 @@ const Projects = () => {
                   >
                     View Project →
                   </a>
-                ) : (
+                ) : project.associatedWith == "Self" ? (
                   <span className="in-progress-label">In Progress</span>
+                ) : (
+                  <span className="in-progress-label">
+                    <strong>Associated With:</strong> {project.associatedWith}
+                  </span>
                 )}
               </div>
             </div>

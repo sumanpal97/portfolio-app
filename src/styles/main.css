@@ -181,15 +181,15 @@ body::-webkit-scrollbar {
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
-  filter: grayscale(100%) brightness(1.2);
+  width: 50px;
+  height: 50px;
+  filter: brightness(1.2);
   transition: transform 0.2s;
 }
 
 .social-link:hover .social-icon {
-  transform: scale(1.1);
-  filter: grayscale(0%) brightness(1.5);
+  transform: scale(1.2);
+  filter: brightness(1.5);
 }
 
 
@@ -224,8 +224,8 @@ body::-webkit-scrollbar {
 }
 
 .company-logo {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
   border-radius: 0; /* keep transparent edges visible */
 }
@@ -345,7 +345,7 @@ body::-webkit-scrollbar {
   transition: transform 0.3s ease;
 }
 .timeline-entry:hover .company-logo {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .nav-link.active {
@@ -421,10 +421,8 @@ body::-webkit-scrollbar {
   text-decoration: underline;
 }
 
-.associated-with-tag {
-  font-size: 0.9rem;
-  color: #aaa;
-  margin-bottom: 0.5rem;
+.resume-button {
+  margin-top: 10px;
 }
 
 .in-progress-label {

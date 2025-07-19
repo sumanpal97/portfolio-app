@@ -1,58 +1,44 @@
 [
   {
-    "name": "Portfolio Website",
-    "tech": "React, Bootstrap, JSON",
-    "link": "https://github.com/yourname/portfolio",
-    "description": "Personal portfolio using static JSON for dynamic sections.",
+    "name": "RAG with LangChain",
+    "tech": "Python, RAG, Tokenization, Vector Embeddings, Semantic Search, Vector DB, Generative AI",
+    "link": "",
+    "description": "Building Retrieval-Augmented Generation (RAG) tool with LangChain",
     "associatedWith": "Self"
   },
   {
-    "name": "CVE AutoFixer",
-    "tech": "Flask, Bootstrap, Python",
+    "name": "CVEAutoFixer",
+    "tech": "Python, Graph, Flask, Maven",
     "link": "",
-    "description": "Tool to autofix known CVEs in Maven dependencies.",
-    "associatedWith": "Acme Corp"
+    "description": "**CVEAutoFixer** is an internal tool that automates the detection and resolution of security vulnerabilities across a mesh of repositories. It identifies CVEs, applies safe upgrades, and automatically creates commits and pull requests—streamlining secure code delivery.",
+    "associatedWith": "Amdocs"
   },
   {
-    "name": "CVE AutoFixer",
-    "tech": "Flask, Bootstrap, Python",
-    "link": "https://github.com/yourname/cve-autofix",
-    "description": "Tool to autofix known CVEs in Maven dependencies.",
-    "associatedWith": "Acme Corp"
+    "name": "ElevaSync",
+    "tech": "Java, C-SCAN, Multithreading",
+    "link": "https://github.com/sumanpal97/ElevaSync",
+    "description": "The GUI application optimizes elevator movement through the C-SCAN Algorithm and Multithreading. Leveraging the C-SCAN algorithm, ElevaSync efficiently schedules elevator requests within floors, minimizing wait times.",
+    "associatedWith": "Self"
   },
   {
-    "name": "CVE AutoFixer",
-    "tech": "Flask, Bootstrap, Python",
+    "name": "LogOps",
+    "tech": "AWS, Node.js, Terraform",
     "link": "",
-    "description": "Tool to autofix known CVEs in Maven dependencies.",
-    "associatedWith": "Acme Corp"
+    "description": "Is a powerful log management solution designed to streamline log analysis, error detection, and performance tracking within organizations. It empowers teams to gain actionable insights from application logs efficiently.",
+    "associatedWith": "Amdocs"
   },
   {
-    "name": "CVE AutoFixer",
-    "tech": "Flask, Bootstrap, Python",
-    "link": "https://github.com/yourname/cve-autofix",
-    "description": "Tool to autofix known CVEs in Maven dependencies.",
-    "associatedWith": "Acme Corp"
-  },
-  {
-    "name": "CVE AutoFixer",
-    "tech": "Flask, Bootstrap, Python",
+    "name": "AlertOps",
+    "tech": "AWS, PagerDuty, Terraform",
     "link": "",
-    "description": "Tool to autofix known CVEs in Maven dependencies.",
-    "associatedWith": "Acme Corp"
+    "description": "Is an Incident Alerting and Management Solution seamlessly integrating AWS CloudWatch Alarms with PagerDuty, ensuring timely notifications and efficient task assignments.",
+    "associatedWith": "Amdocs"
   },
   {
-    "name": "CVE AutoFixer",
-    "tech": "Flask, Bootstrap, Python",
-    "link": "https://github.com/yourname/cve-autofix",
-    "description": "Tool to autofix known CVEs in Maven dependencies.",
-    "associatedWith": "Acme Corp"
-  },
-  {
-    "name": "CVE AutoFixer",
-    "tech": "Flask, Bootstrap, Python",
-    "link": "https://github.com/yourname/cve-autofix",
-    "description": "Tool to autofix known CVEs in Maven dependencies.",
-    "associatedWith": "Acme Corp"
+    "name": "Titanic Survivor Prediction",
+    "tech": "Python, Machine Learning, Data Visualization",
+    "link": "https://github.com/sumanpal97/titanic_survivor_prediction",
+    "description": "By analyzing historical passenger data, we build a machine-learning model that predicts survival outcomes based on various features such as passenger class, age, gender, and fare.",
+    "associatedWith": "Self"
   }
 ]

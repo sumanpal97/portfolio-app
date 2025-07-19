@@ -5,7 +5,7 @@ import phrasesData from "../data/phrases.json";
 import socials from "../data/socials.json";
 import resumePdf from "../assets/resume/spresume.pdf"; // Import your resume PDF
 
-const TYPING_SPEED = 90;
+const TYPING_SPEED = 100;
 const PAUSE_DURATION = 800;
 
 const highlights = [
@@ -135,7 +135,7 @@ const Home = () => {
               alt={item.name}
               className="social-icon"
             />
-            <span>{item.name}</span>
+            {/*<span>{item.name}</span>*/}
           </a>
         ))}
       </div>
@@ -145,7 +145,7 @@ const Home = () => {
         <a
           href={resumePdf}
           download="Suman_Pal_Resume.pdf" // This will be the downloaded file name
-          className="btn btn-primary" // Example styling for a button
+          className="resume-button btn btn-primary" // Example styling for a button
         >
           Download Resume
         </a>

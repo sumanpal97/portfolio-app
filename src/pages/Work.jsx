@@ -5,7 +5,7 @@ import "../styles/main.css";
 const Work = () => {
   return (
     <div className="work-timeline">
-      <h2 className="section-title">Experience</h2>
+      <h2 className="section-title">Experience : 5yrs</h2>
       {workData.map((job, idx) => (
         <div className="timeline-entry" key={idx}>
           {/* Vertical line + logo */}

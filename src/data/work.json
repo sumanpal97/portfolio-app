@@ -1,61 +1,84 @@
 [
   {
-    "company": "Meta",
-    "logo": "meta.png",
+    "company": "Amdocs",
+    "logo": "amdocs.png",
     "duration": "Jan 2022 - Present",
     "location": "London",
     "role": "Senior Software Engineer",
     "responsibilities": [
-      "Currently a Software Engineer at Bootcamp",
-      "Worked with smaller teams on identifying tasks",
-      "Choosing the best team for me"
+      "Currently part of the AI & Data Unit, building and maintaining a cloud-native data intelligence platform leveraging distributed systems to help service providers extract business value from large-scale data",
+      "Engineered asynchronous, event-driven BSS workflows using REST APIs in Amdocs CES Suite, optimizing digital telco operations and boosting business agilit",
+      "Played a key role in developing PlatformX, a cloud-based SaaS integration platform that simplifies product onboarding and lifecycle management using AWS, Terraform, and Node.js",
+      "Actively developing internal engineering tools—some powered by Generative AI—to streamline critical engineering operations, enhance team productivity, and drive impactful outcomes across workflows"
     ],
     "skills": [
       "Java",
       "Spring Boot",
-      "AWS",
-      "Kubernetes",
-      "PostgreSQL",
-      "Spring Boot",
-      "AWS",
-      "Kubernetes",
-      "PostgreSQL",
-      "Spring Boot",
-      "AWS",
-      "Kubernetes",
-      "PostgreSQL",
-      "Spring Boot",
-      "AWS",
-      "Kubernetes",
-      "PostgreSQL"
+      "Multithreading",
+      "Kafka",
+      "SQL/No-SQL",
+      "Terraform",
+      "K8S",
+      "Docker",
+      "Node.js",
+      "Python",
+      "Cloud Technologies",
+      "REST APIs",
+      "OOPs",
+      "Software Development",
+      "Distributed Systems",
+      "Generative AI"
     ]
   },
   {
-    "company": "Oracle",
-    "logo": "oracle.png",
-    "duration": "Jan 2022 - Present",
-    "location": "London",
-    "role": "Software Engineer",
-    "responsibilities": [
-      "Currently a Software Engineer at Bootcamp",
-      "Worked with smaller teams on identifying tasks",
-      "Choosing the best team for me",
-      "Worked with smaller teams on identifying tasks",
-      "Worked with smaller teams on identifying tasks"
-    ],
-    "skills": ["Java", "Spring Boot", "AWS", "Kubernetes", "PostgreSQL"]
-  },
-  {
-    "company": "Google",
-    "logo": "google.png",
-    "duration": "Jan 2022 - Present",
-    "location": "London",
+    "company": "Cognizant",
+    "logo": "cognizant.png",
+    "duration": "November 2020 - July 2022",
+    "location": "Kolkata, India (Remote)",
     "role": "Junior Software Engineer",
     "responsibilities": [
-      "Currently a Software Engineer at Bootcamp",
-      "Worked with smaller teams on identifying tasks",
-      "Choosing the best team for me"
+      "Contributed to the end-to-end development and maintenance of a monolithic web-based healthcare application, ensuring performance, scalability, and reliability",
+      "Implemented batch processing workflows using Spring Batch to enable efficient ingestion and transformation of high-volume healthcare datasets",
+      "Developed and maintained robust MVC-based backend modules using Java, Spring MVC, and Hibernate, integrating seamlessly with relational databases via optimized SQL queries",
+      "Built and enhanced interactive UI components using HTML, CSS, JSP, JavaScript, and AJAX, ensuring responsive and accessible user experiences",
+      "Collaborated cross-functionally in delivering critical features, bug resolutions, and performance tuning while maintaining domain-level data sensitivity and compliance"
     ],
-    "skills": ["Python", "Docker", "GitLab CI", "MongoDB"]
+    "skills": [
+      "Java",
+      "Spring MVC",
+      "Spring Batch",
+      "Hibernate",
+      "REST APIs",
+      "SQL",
+      "Monolith Architecture",
+      "HTML",
+      "CSS",
+      "JSP",
+      "JavaScript",
+      "AJAX",
+      "Git"
+    ]
+  },
+  {
+    "company": "CodingNinjas",
+    "logo": "codingninjas.png",
+    "duration": "Auguts 2020 - December 2020",
+    "location": "Remote",
+    "role": "Teaching Assistant",
+    "responsibilities": [
+      "Mentored and assisted a batch of 90+ students as a Teaching Assistant",
+      "Conducted dedicated doubt-clearing sessions on Data Structures and Algorithms",
+      "Provided syntactical and conceptual support across multiple programming languages",
+      "Helped students debug, optimize, and understand complex code solutions",
+      "Enabled students to strengthen problem-solving skills through targeted guidance"
+    ],
+    "skills": [
+      "Data Structures",
+      "Algorithms",
+      "Competitive Programming",
+      "C",
+      "C++",
+      "Java"
+    ]
   }
 ]

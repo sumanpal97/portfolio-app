@@ -8,5 +8,35 @@
     "name": "LeetCode",
     "url": "https://leetcode.com/u/sumanpal198/",
     "icon": "leetcode.png"
+  },
+  {
+    "name": "X",
+    "url": "https://x.com/imsuman97",
+    "icon": "x.png"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/imsuman97/",
+    "icon": "instagram.png"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/sumanpal97",
+    "icon": "github.png"
+  },
+  {
+    "name": "Medium",
+    "url": "https://medium.com/@sumanpal198",
+    "icon": "medium.png"
+  },
+  {
+    "name": "DevCommunity",
+    "url": "https://dev.to/sumanpal97",
+    "icon": "devC.png"
+  },
+  {
+    "name": "Pexels",
+    "url": "https://www.pexels.com/@suman-pal-962894/",
+    "icon": "pexels.png"
   }
 ]

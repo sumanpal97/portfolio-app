@@ -1,27 +1,19 @@
 [
   {
-    "institution": "Indian Institute of Technology, Bombay",
-    "degree": "M.Tech in Computer Science",
-    "duration": "2022 – 2024",
-    "location": "Mumbai, India",
-    "logo": "university.png",
-    "details": [
-      "Specialized in Machine Learning and Distributed Systems",
-      "Published paper on scalable microservice design"
-    ],
-    "skills": ["Artificial Intelligence", "Machine Learning"]
-  },
-  {
-    "institution": "Jadavpur University",
+    "institution": "College of Engineering Roorkee",
     "degree": "B.Tech in Computer Science",
-    "duration": "2018 – 2022",
-    "location": "Kolkata, India",
-    "logo": "university.png",
-    "details": ["Graduated with distinction", "President of Coding Club"],
+    "duration": "2016 – 2020",
+    "location": "Roorkee, Uttarakhand, India",
+    "logo": "coer.png",
+    "details": ["Core Member of Coding Club"],
     "skills": [
-      "Data Structures & Algorithms",
+      "C Programming",
+      "Data Structures and Algorithms",
       "Operating Systems",
-      "Computer Networks"
+      "Computer Networks",
+      "Computer Organization and Architecture",
+      "Object Oriented Programming",
+      "Database Systems"
     ]
   }
 ]
