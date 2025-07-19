@@ -1,0 +1,6 @@
+node_modules
+
+# Ignore VSCode settings
+.vscode/
+# Ignore IntelliJ settings
+.idea/

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sumanpal97/portfolio-app/static/css/main.20ab54b7.css",
+    "main.js": "/sumanpal97/portfolio-app/static/js/main.15f80ec0.js",
+    "static/media/profile.jpg": "/sumanpal97/portfolio-app/static/media/profile.a50395be76dc44d389fe.jpg",
+    "static/media/coer.png": "/sumanpal97/portfolio-app/static/media/coer.b019f44d11636afdb29a.png",
+    "static/media/pexels.png": "/sumanpal97/portfolio-app/static/media/pexels.4b5f5c31c15eb02e8922.png",
+    "static/media/codingninjas.png": "/sumanpal97/portfolio-app/static/media/codingninjas.4a723216a841f315d56f.png",
+    "static/media/spresume.pdf": "/sumanpal97/portfolio-app/static/media/spresume.20a39abcafbb08b82a80.pdf",
+    "static/media/amdocs.png": "/sumanpal97/portfolio-app/static/media/amdocs.a589c5d1489b7a573921.png",
+    "index.html": "/sumanpal97/portfolio-app/index.html",
+    "main.20ab54b7.css.map": "/sumanpal97/portfolio-app/static/css/main.20ab54b7.css.map",
+    "main.15f80ec0.js.map": "/sumanpal97/portfolio-app/static/js/main.15f80ec0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20ab54b7.css",
+    "static/js/main.15f80ec0.js"
+  ]
+}
