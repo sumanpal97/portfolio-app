@@ -3,12 +3,56 @@
     "name": "Portfolio Website",
     "tech": "React, Bootstrap, JSON",
     "link": "https://github.com/yourname/portfolio",
-    "description": "Personal portfolio using static JSON for dynamic sections."
+    "description": "Personal portfolio using static JSON for dynamic sections.",
+    "associatedWith": "Self"
+  },
+  {
+    "name": "CVE AutoFixer",
+    "tech": "Flask, Bootstrap, Python",
+    "link": "",
+    "description": "Tool to autofix known CVEs in Maven dependencies.",
+    "associatedWith": "Acme Corp"
   },
   {
     "name": "CVE AutoFixer",
     "tech": "Flask, Bootstrap, Python",
     "link": "https://github.com/yourname/cve-autofix",
-    "description": "Tool to autofix known CVEs in Maven dependencies."
+    "description": "Tool to autofix known CVEs in Maven dependencies.",
+    "associatedWith": "Acme Corp"
+  },
+  {
+    "name": "CVE AutoFixer",
+    "tech": "Flask, Bootstrap, Python",
+    "link": "",
+    "description": "Tool to autofix known CVEs in Maven dependencies.",
+    "associatedWith": "Acme Corp"
+  },
+  {
+    "name": "CVE AutoFixer",
+    "tech": "Flask, Bootstrap, Python",
+    "link": "https://github.com/yourname/cve-autofix",
+    "description": "Tool to autofix known CVEs in Maven dependencies.",
+    "associatedWith": "Acme Corp"
+  },
+  {
+    "name": "CVE AutoFixer",
+    "tech": "Flask, Bootstrap, Python",
+    "link": "",
+    "description": "Tool to autofix known CVEs in Maven dependencies.",
+    "associatedWith": "Acme Corp"
+  },
+  {
+    "name": "CVE AutoFixer",
+    "tech": "Flask, Bootstrap, Python",
+    "link": "https://github.com/yourname/cve-autofix",
+    "description": "Tool to autofix known CVEs in Maven dependencies.",
+    "associatedWith": "Acme Corp"
+  },
+  {
+    "name": "CVE AutoFixer",
+    "tech": "Flask, Bootstrap, Python",
+    "link": "https://github.com/yourname/cve-autofix",
+    "description": "Tool to autofix known CVEs in Maven dependencies.",
+    "associatedWith": "Acme Corp"
   }
 ]

@@ -196,8 +196,8 @@ body, html, #root {
 .work-timeline {
   padding-top: 40px;
   position: relative;
-  margin-left: 120px;
-  padding-left: 150px;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 .timeline-entry {
@@ -338,4 +338,90 @@ body, html, #root {
   color: #fff !important;         /* Make text white */
   font-weight: 600;               /* Make it bold */
   font-size: 1.05rem;             /* Slightly bigger */
+}
+
+.project-card {
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 1.2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 255, 255, 0.2);
+  border-color: #555;
+}
+
+.project-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #f1f1f1;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tech-pill {
+  background-color: #292929;
+  color: #ccc;
+  border: 1px solid #444;
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.tech-pill:hover {
+  background-color: #333;
+  border-color: #888;
+  color: #fff;
+}
+
+.project-description {
+  font-size: 0.95rem;
+  color: #aaa;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+.view-btn {
+  margin-top: auto;
+  align-self: flex-start;
+  color: #00f2ff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.view-btn:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.associated-with-tag {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}
+
+.in-progress-label {
+  display: inline-block;
+  margin-top: auto;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #aaa;
+  padding: 0.35rem 0.75rem;
+  border-radius: 5px;
+  background-color: #2d2d2d;
+  border: 1px solid #444;
+  text-align: center;
 }

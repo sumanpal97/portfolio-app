@@ -8,7 +8,8 @@
     "details": [
       "Specialized in Machine Learning and Distributed Systems",
       "Published paper on scalable microservice design"
-    ]
+    ],
+    "skills": ["Artificial Intelligence", "Machine Learning"]
   },
   {
     "institution": "Jadavpur University",
@@ -16,6 +17,11 @@
     "duration": "2018 – 2022",
     "location": "Kolkata, India",
     "logo": "university.png",
-    "details": ["Graduated with distinction", "President of Coding Club"]
+    "details": ["Graduated with distinction", "President of Coding Club"],
+    "skills": [
+      "Data Structures & Algorithms",
+      "Operating Systems",
+      "Computer Networks"
+    ]
   }
 ]

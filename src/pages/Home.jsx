@@ -93,11 +93,7 @@ const Home = () => {
   }, [charIndex, paused, typingForward, index, phrases]);
 
   return (
-    <section
-      className="hero-section d-flex flex-column justify-content-center align-items-center text-center text-light"
-      onMouseEnter={() => setPaused(true)}
-      onMouseLeave={() => setPaused(false)}
-    >
+    <section className="hero-section d-flex flex-column justify-content-center align-items-center text-center text-light">
       <motion.h1
         className="glow-text mb-3"
         initial={{ opacity: 0 }}
@@ -108,10 +104,14 @@ const Home = () => {
       </motion.h1>
 
       {/* 👇 Typewriter Effect */}
-      <p className="subtitle-rotate">
+      <div
+        className="subtitle-rotate"
+        onMouseEnter={() => setPaused(true)}
+        onMouseLeave={() => setPaused(false)}
+      >
         {applyHighlightToText(text, highlights[index])}
         <span className="blinking-cursor">|</span>
-      </p>
+      </div>
 
       {/* 👇 Add this description below */}
       <p className="small-description mt-3 px-3">

@@ -1,19 +1,42 @@
-import React from 'react';
-import projectData from '../data/projects.json';
+import React from "react";
+import projectData from "../data/projects.json";
+import "../styles/main.css";
 
 const Projects = () => {
   return (
     <div className="container">
-      <h2 className="mb-4">Projects</h2>
+      <h2 className="section-title">Projects</h2>
       <div className="row">
         {projectData.map((project, idx) => (
-          <div className="col-md-6 mb-4" key={idx}>
-            <div className="card shadow-sm h-100">
-              <div className="card-body">
-                <h5 className="card-title">{project.name}</h5>
-                <h6 className="card-subtitle mb-2 text-muted">{project.tech}</h6>
-                <p className="card-text">{project.description}</p>
-                <a href={project.link} target="_blank" rel="noreferrer" className="card-link">View Project</a>
+          <div className="col-md-4 mb-4" key={idx}>
+            <div className="project-card h-100">
+              <div className="card-body d-flex flex-column">
+                <h5 className="project-title mb-2">{project.name}</h5>
+                <div className="tech-stack mb-2">
+                  {project.tech.split(",").map((tech, i) => (
+                    <span key={i} className="tech-pill">
+                      {tech.trim()}
+                    </span>
+                  ))}
+                </div>
+                <p className="project-description flex-grow-1">
+                  {project.description}
+                </p>
+                <p className="associated-with-tag">
+                  <strong>Associated With:</strong> {project.associatedWith}
+                </p>
+                {project.link ? (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="view-btn"
+                  >
+                    View Project →
+                  </a>
+                ) : (
+                  <span className="in-progress-label">In Progress</span>
+                )}
               </div>
             </div>
           </div>

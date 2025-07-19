@@ -19,32 +19,19 @@ export default function Navbar() {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <NavLink className="nav-link" to="/work">
-                Work Experience
+                Experience
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/projects">
-                Projects
-              </NavLink>
-            </li>
+
             <li className="nav-item">
               <NavLink className="nav-link" to="/education">
                 Education
               </NavLink>
             </li>
+
             <li className="nav-item">
-              <NavLink className="nav-link" to="/current">
-                Now & Next
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/blog">
-                Blog
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/contact">
-                Contact
+              <NavLink className="nav-link" to="/projects">
+                Projects
               </NavLink>
             </li>
           </ul>
