@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <main className="container flex-grow-1 py-4">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/portfolio-app/" element={<Home />} />
             <Route path="/work" element={<Work />} />
             <Route path="/education" element={<Education />} />
             <Route path="/projects" element={<Projects />} />
