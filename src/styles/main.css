@@ -99,6 +99,17 @@ body, html, #root {
   min-height: 100vh;
 }
 
+body {
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+  -ms-overflow-style: none;      /* IE/Edge */
+}
+
+/* For Chrome, Edge, Safari */
+body::-webkit-scrollbar {
+  display: none;
+}
+
 /*  */
 
 .subtitle-rotate {
@@ -194,7 +205,7 @@ body, html, #root {
 }
 
 .work-timeline {
-  padding-top: 40px;
+  padding-top: 0px;
   position: relative;
   margin-left: 0px;
   padding-left: 0px;
@@ -269,11 +280,14 @@ body, html, #root {
 }
 
 .role-title {
-  font-weight: 500;
-  font-size: 1.05rem;
-  color: #aaa;
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: #ffffff;
   flex-shrink: 0;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.2); /* subtle focus glow */
+  letter-spacing: 0.5px;
 }
+
 
 .timeline-subtext {
   margin-top: 0.2rem;
@@ -424,4 +438,18 @@ body, html, #root {
   background-color: #2d2d2d;
   border: 1px solid #444;
   text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #ffffff; /* Or your primary text color */
+
+  /* Subtle professional glow */
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.2),
+               0 0 10px rgba(255, 255, 255, 0.15);
+  
+  padding-bottom: 20px;
 }

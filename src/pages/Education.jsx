@@ -4,6 +4,7 @@ import educationData from "../data/education.json";
 const Education = () => {
   return (
     <div className="work-timeline">
+      <h2 className="section-title">Education</h2>
       {educationData.map((edu, idx) => (
         <div className="timeline-entry" key={idx}>
           {/* Vertical line + logo */}
