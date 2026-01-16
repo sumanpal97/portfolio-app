@@ -1,5 +1,20 @@
 [
   {
+    "institution": "Birla Institute of Technology And Science",
+    "degree": "M.Tech in Artificial Intelligence and Machine Learning",
+    "duration": "2025 – 2027",
+    "location": "Pilani, India",
+    "logo": "bits.png",
+    "details": ["Specialization in Deep Learning, Natural Language Processing"],
+    "skills": [
+      "Artificial and Computational Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Processing",
+      "Computer Vision"
+    ]
+  },
+  {
     "institution": "College of Engineering Roorkee",
     "degree": "B.Tech in Computer Science",
     "duration": "2016 – 2020",

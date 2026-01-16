@@ -9,20 +9,18 @@ import Projects from "./pages/Projects";
 
 function App() {
   return (
-    <Router>
-      <div className="d-flex flex-column min-vh-100">
-        <Navbar />
-        <main className="container flex-grow-1 py-4">
-          <Routes>
-            <Route path="/portfolio-app/" element={<Home />} />
-            <Route path="/work" element={<Work />} />
-            <Route path="/education" element={<Education />} />
-            <Route path="/projects" element={<Projects />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <div className="d-flex flex-column min-vh-100">
+      <Navbar />
+      <main className="container flex-grow-1 py-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
   );
 }
 
